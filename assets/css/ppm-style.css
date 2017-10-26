@@ -1,0 +1,75 @@
+
+.myHeader,
+.offering {
+	background-color: #1E90FF;
+	font-family: 'Roboto', sans-serif;
+}
+/* Header */
+.myHeader {
+	text-align: center;
+	height: 100px;
+	font-size: 40px;
+}
+
+.topLogo {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.companyName {
+	text-decoration: underline;
+	line-height: 240%;
+}
+
+.contactHead {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+/* Carousel */
+.band {
+	float: initial;
+	background-image: url("../image/eng-background.png");
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	padding-top: 30px;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+
+.carousel-caption {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	color: red;
+	margin-bottom: 60px;
+}
+
+.pitch p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	font-size: 24px;
+	text-align: center;
+}
+/* Offering */
+
+.contacts {
+	text-align: center;
+}
+.otherContacts {
+	font-size: 24px;
+}
+
+.card-title {
+	font-size: 24px;
+	text-align: center;
+}
+

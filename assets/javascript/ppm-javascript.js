@@ -1,0 +1,2 @@
+
+//$('#carouselMachineSlides').carousel();
