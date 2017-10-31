@@ -1,0 +1,19 @@
+
+body {
+	background-color: #F5F5DC;
+	font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+	text-align: center;
+}
+
+.contactIntro {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.where {
+	font-size: 20px;
+}

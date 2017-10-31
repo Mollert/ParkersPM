@@ -1,0 +1,73 @@
+
+<!doctype html>
+<html>
+<head>
+	<title>Parkers Precision Machines</title>
+
+	<meta charset="utf-8">
+	<!-- favicon -->
+	<link rel="icon" href="assets/image/ppm-favicon.ico" type="image/ico"/>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<!-- My CSS Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/ppm-contact-style.css">
+	<!-- My Fonts -->	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500i|Montserrat:500" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row intro">
+			<div class="contactIntro">
+				<p>We sure would like to hear from you and discuss how we can make you more successful!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<form>
+					<div class="form-group">
+						<label for="theirName">Your Name</label>
+						<input type="text" name="name" class="form-control" id="theirName" placeholder="Enter name">
+					</div>
+					<div class="form-group">
+						<label for="theirEmail">Email address</label>
+						<input type="email" name="_replyto" class="form-control" id="theirEmail" aria-describedby="emailHelp" placeholder="Enter email">
+					</div>
+					<div class="form-group">
+						<label for="theirMessage">Send us a short message</label>
+						<textarea  name="message" class="form-control" id="theirMessage" rows="6"></textarea>
+						<small id="messageHelp" class="form-text text-muted">Add up to six rows.</small>
+					</div>
+					<button type="submit" class="btn btn-primary" id="hereGoes">Submit</button>
+				</form>
+				<div class="alert alert-success" role="alert">
+					<img src="assets/image/good.png" alt="The Good" width="60px" height="60px">
+					<strong>It's coming our way.<br>You will soon hear from us.</strong>
+				</div>
+				<div class="alert alert-danger" role="alert">
+					<img src="assets/image/bad.png" alt="The Bad" width="60px" height="60px">
+					<strong>Oh snap!<br>Something went wrong.  Please try again.</strong>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="where">
+					<p class="location">Here we are</p>
+				</div>
+				<div id="map" style="width:500px; height:500px;"></div>
+			</div>
+		</div>
+	</div>
+
+		<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<!-- Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<!--  Javascript  -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUhuc431AChFbfphSEFZ75FAwcdPIVPTU&callback=initMap" async defer>
+	</script>
+	<script src="assets/javascript/ppm-javascript.js"></script>
+</body>
+</html>
