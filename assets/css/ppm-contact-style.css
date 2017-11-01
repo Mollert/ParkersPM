@@ -4,16 +4,24 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.intro {
-	text-align: center;
-}
-
 .contactIntro {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+
+label[for="theirName"],
+label[for="theirEmail"],
+label[for="theirMessage"],
+#hereGoes {
 	font-size: 20px;
 }
 
 .where {
 	font-size: 20px;
+}
+
+#map { 
+   border:6px solid #DEB887;
 }
