@@ -1,7 +1,10 @@
 
-$('.carousel').carousel({
-   interval: 4000
- });
+$(document).ready(function() { 
+	$(".carousel").carousel({
+		interval: 4000,
+		cycle: true
+	});
+});
 
 $(".alert-success").hide();
 $(".alert-danger").hide();
