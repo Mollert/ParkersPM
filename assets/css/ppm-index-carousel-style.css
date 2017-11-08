@@ -8,6 +8,7 @@
 .myHeader {
 	text-align: center;
 	height: 100px;
+
 }
 
 .topLogo {
@@ -29,52 +30,44 @@
 	margin-right: 20px;
 }
 
-/* Expander */
-.expander {
+/* Carousel */
+.band {
 	float: initial;
 	background-image: url("../image/eng-background.png");
 	font-family: 'Roboto', sans-serif;
 }
 
-.topSection {
-	padding-top: 20px;
-	height: 720px;
-	max-height: 720px;
+.container {
+	padding-top: 30px;
 }
 
-.first,
-.second,
-.third {
-	text-align: center;
+.carousel-item img {
+	width: 100%;
+	height: auto;
+	background-size: cover;
 }
 
-#oneText,
-#twoText,
-#threeText {
-	display: none;
-	text-align: center;
-	font-size: 30px;
-}
-
-#oneText,
-#twoText {
-	color: blue;
-}
-
-#threeText {
+.carousel-caption {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
 	color: red;
+	margin-bottom: 60px;
 }
 
-.pitch {
-	padding-bottom: 10px;
-	margin-bottom: 0px;
-	font-size: 20px;
+.pitch p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	font-size: 24px;
 	text-align: center;
 }
 /* Offering */
 .contacts {
 	text-align: center;
-	font-size: 20px;
+}
+
+.otherContacts {
+	font-size: 24px;
 }
 
 .card-title {
@@ -83,7 +76,6 @@
 }
 
 .offering {
-	padding-top: 10px;
 	padding-bottom: 30px;
-{
+}
 

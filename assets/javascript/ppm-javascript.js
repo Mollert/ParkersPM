@@ -1,9 +1,38 @@
 
-$(document).ready(function() { 
-	$(".carousel").carousel({
-		interval: 4000,
-		cycle: true
+function backToHide() {
+	$("#numThree, #threeText").hide();
+	$("#numThree").css({height: "1px", width: "1px"});
+};
+
+function cyclePic() {
+	$("#numOne").show();
+	$("#numOne").delay(500).animate({height: "600px", width: "600px"}, 3000, function() {
+		$("#oneText").fadeIn(5000, function() {
+			$("#numOne, #oneText").hide();
+			$("#numOne").css({height: "1px", width: "1px"});
+			$("#numTwo").show();
+			$("#numTwo").delay(500).animate({height: "600px", width: "600px"}, 3000, function() {	
+				$("#twoText").fadeIn(5000, function() {
+					$("#numTwo, #twoText").hide();
+					$("#numTwo").css({height: "1px", width: "1px"});
+					$("#numThree").show();
+					$("#numThree").delay(500).animate({height: "600px", width: "600px"}, 3000, function() {
+						$("#threeText").fadeIn(5000, function() {
+							setTimeout (backToHide, 3000);
+						});
+					});
+				});
+			});
+		});
 	});
+};
+
+$(document).ready(function() {
+	$("#numOne").hide();	
+	$("#numTwo").hide();
+	$("#numThree").hide();
+	cyclePic();
+	setInterval(cyclePic, 30000);	
 });
 
 $(".alert-success").hide();
