@@ -27,7 +27,7 @@ function cyclePic() {
 	});
 };
 
-$(document).ready(function() {
+$(window).on("load", function() {
 	$("#numOne").hide();	
 	$("#numTwo").hide();
 	$("#numThree").hide();
